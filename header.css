@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url(/section.css);
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat',sans-serif;
+}
+a{
+    text-decoration: none !important;
+}
+header{
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+html{
+    background-color: black;
+}
+.header_main{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    z-index: 1000; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block_header{ 
+    width: 98%;
+    height: 80px;
+    background-image: url('/1614254523_57-p-oboi-na-telefon-dlya-podrostkov-chernii-fo-71.jpg') ;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px 20px 20px 20px;
+}
+.img_dota{
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+    cursor: pointer;
+}
+
+.info_header{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(7, 7, 7);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border-radius: 15px 15px 0px 0px;
+    cursor: pointer;
+    border-top: 2px solid rgb(58, 58, 58);
+    border-right: 2px solid rgb(58, 58, 58);
+    border-left: 2px solid rgb(58, 58, 58);
+    transition: all 0.3s ease-in-out;
+}
+.info_header:hover{
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(26, 26, 26);
+}
+.header_menu{
+    margin-top: 30px;
+    margin-right:100px;
+    margin-left: 80px;
+    width: 100%;
+    height: 50px;
+}
+
+.search{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.search_block{
+    display: flex;    
+}
+.hero_search_block{
+    width: 93%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+.hero_search_block_1{
+    display: none;
+}
+.hero_search_block_2{
+    display: none;
+}
+.hero_search_block_3{
+    display: none;
+}
+.hero_search_block_4{
+    display: none;
+}
+.hero_search_block_5{
+    display: none;
+}
+.hero_search_block_6{
+    display: none;
+}
+.search_input{
+    padding: 5px;
+    width: 200px;
+    height: 50px;
+    border-radius:10px 0px 0px 0px ;
+    border: 1px;
+    color: aliceblue;
+    background-color: rgba(138, 138, 138, 0.486);
+    border: none;
+}
+
+.downarrow{
+    width: 20px;
+    height: 20px;
+    border-top:5px solid rgb(122, 122, 122);
+    border-right:5px solid rgb(122, 122, 122);
+    transform: rotate(135deg);
+    position: relative;
+    top: -7px;
+}
+
+.buttom_search{
+    border-radius:0px 10px 0px 0px ;
+    height: 50px;
+    margin-right: 20px;
+    border: 1px;
+    padding: 0px 20px 0px 20px;
+    cursor: pointer;
+    background-color: rgba(138, 138, 138, 0.486);
+    border-left:1px solid grey;
+}
+
+.info_header_block{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(205, 206, 206, 0.966);
+    border-radius: 0px 0px 15px 15px;
+    opacity:0;
+    box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+    transform: translateY(0px);
+    transition: all .3s ease-in-out;
+    z-index: 1;
+    display: flex;
+}
+
+.search_img{
+    padding-top:5px ;
+    width: 20px;
+    height: 25px;
+}
+.list{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+hr{
+    width: 100px;
+    border: 1px solid rgba(105, 104, 104, 0.719);
+    height: 5px;
+    background-color: rgba(105, 104, 104, 0.719);
+}
+.list_category{
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    -o-user-select: none; 
+    user-select: none;
+}
+
+.list_list_category{
+    width: 122px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.list_list_category_2{
+    width: 185px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+.list_list_category_3{
+    width: 160px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+.downarrow_list{
+    width: 12px;
+    height: 12px;
+    border-top:2px solid black;
+    border-right:2px solid black;
+    transform: rotate(135deg);
+    position: relative;
+    left: -5px;
+    top: 5px;
+}
+
+.name_streamer{
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type:none;
+    font-size: 20px;
+    opacity: 0;
+    animation-name: show;
+    animation-duration: 0.8s;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+    margin-top: 10px;
+    
+}
+.flex_list_contact{
+    display: flex;
+    flex-direction: row;
+}
+.flex_list_dota_wiki{
+    display: flex;
+    flex-direction: row;
+}
+.list_dota_wiki{
+    display: block;
+}
+.list_contact{
+    display: block;
+}
+.list_streamers_1{
+    display: block;
+}
+.list_info_item{
+    display: block;
+}
+.img_streamer{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+.block_streamers{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.block_contacts{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.name_contacts{
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0;
+    animation-name: show;
+    animation-duration: 0.8s;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+    font-size: 20px;
+}
+.img_contacts{
+    width: 100px;
+    cursor: pointer;
+}
+
+.block_hero_dota{
+    display: none;
+    opacity: 0;
+    justify-content: space-between;
+    flex-direction: row;
+    animation-name: show;
+    animation-duration: 0.8s;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+    font-size: 20px;
+}
+@keyframes show {
+    from {
+      opacity: 0;
+    }
+    to {
+    opacity: 1;
+    }
+}
+.block_hero_dota_1{
+    margin-top: 15px;
+    width: 100%;
+}
+
+.block_hero_dota_2{
+    margin-top: 15px;
+    width: 100%;
+}
+.block_hero_dota_3{
+    width: 100%;
+    margin-top: 15px;
+}
+.name_hero{
+    cursor: pointer;
+    color: #666;
+}
+.img_block_hero{
+    width: 50px;
+    height: 50px;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+}
+
+.numberHero_1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.numberHero_2{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.numberHero_3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.numberHero_4{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.numberHero_5{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.numberHero_6{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

@@ -1,0 +1,121 @@
+.section_main{
+    width: 100%;
+    height: 950px;
+    background-image: url(/3840x2160-px-Dota-2-684888-wallhere.com.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+}
+.section_main_block{
+    width: 85%;
+    height: 80%;
+    background-color: rgba(29, 28, 28, 0.966);
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px 0px 75px 75px;
+}
+.img_dota_section{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    filter: brightness(70%);
+}
+.section_h1{
+    color: rgb(121, 18, 18);
+    margin-top: 10px;
+    font-size: 40px;
+}
+.header_text{
+    color: rgba(136, 138, 139, 0.89);
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 23px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 0px 0px 30px 30px;
+    background-color: rgb(25, 39, 9);
+    border: 4px solid rgba(136, 138, 139, 0.479);
+}
+.section_main_block_1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section_main_block_2{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 75px;
+    font-size: 20px;
+    background-color: rgb(48, 13, 13);
+    border: 3px solid rgba(136, 138, 139, 0.479);
+    padding-left: 8px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.arrow {
+    position: relative;
+    width: 0px;
+    height: 0px;
+    border-left: 20px solid transparent; /* Левый треугольник */
+    border-right: 20px solid transparent; /* Правый треугольник */
+    border-top: 20px solid rgba(100, 100, 100, 0.514); /* Верхний треугольник (стрелка) */
+    margin: 20px; 
+    border-radius: 10px;
+}
+
+.arrow::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    border-radius: 10px 10px 0px 0px;
+    bottom: 20px; /* Расстояние от стрелки до ножки */
+    transform: translateX(-50%);
+    width: 7px;
+    height: 20px;
+    background-color: rgba(100, 100, 100, 0.514); /* Цвет ножки */
+}
+.arrow_block{
+    width: 0px;
+    position: relative;
+    left:15%;
+    top:15px;
+}
+p {
+    color:rgba(136, 138, 139, 0.89);
+}
+.header_block{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.section_main_block_3{
+    width: 95%;
+    color:rgba(136, 138, 139, 0.89);
+    margin-top: 10px;
+    border: 3px solid rgba(136, 138, 139, 0.479);
+    border-radius: 0px 0px 30px 30px;
+    /*background-color: rgba(25, 25, 71, 0.671);*/
+}
+.main_text{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+.flex_section_main_block_3{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+

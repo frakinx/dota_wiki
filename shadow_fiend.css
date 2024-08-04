@@ -1,0 +1,126 @@
+.SF_section_main{
+    width: 100%;
+    height: 1300px;
+    background-image: url(/3840x2160-px-Dota-2-684888-wallhere.com.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+}
+.SF_main_block{
+    width: 85%;
+    height: 80%;
+    background-color: rgba(29, 28, 28, 0.966);
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0px 0px 75px 75px;
+}
+.SF_img{
+    margin-left: 5px;
+    margin-top: 30px;
+    width: 500px;
+    height: 400px;
+    border-radius: 30px;
+}
+.name{
+    background:linear-gradient(rgb(255, 208, 0), rgb(255, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+}
+.sf_block{
+    width: 58%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sf_block_1{
+    color:rgba(136, 138, 139, 0.89);
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right:30px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.block_img_ability{
+    display: flex;
+    gap:5px;
+}
+.img_ability{
+    width: 75px;
+    height: 75px;
+}
+.sf_text_abillities{
+    background:linear-gradient(rgb(255, 208, 0), rgb(255, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 10px;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev{
+    left: auto;
+    background:linear-gradient(rgb(255, 208, 0), rgb(255, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+  .swiper-button-prev, .swiper-rtl .swiper-button-next{
+    right: auto;
+    background:linear-gradient(rgb(255, 208, 0), rgb(255, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.swiper-slide{
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper{
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+    width: 600px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+.swiper-wrapper{
+    display: flex;
+}
+.sf_block span{
+    background:linear-gradient(rgba(255, 208, 0, 0.534), rgba(255, 0, 0, 0.322));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.SF_history{
+    background: linear-gradient(rgba(223, 182, 1, 0.795), rgba(129, 0, 0, 0.329));
+    margin-top: 10px;
+    color: rgb(199, 197, 197);
+    border: 3px solid rgb(136, 138, 139);
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgba(77, 19, 19, 0.253);
+}
+.sf_img_ability_text{
+    width: 25px;
+    height: 25px;
+}
+.text_block_abillitties{
+    display: flex;
+    flex-direction: row;
+    font-size: 17px;
+    margin-top: 10px;
+}

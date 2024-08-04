@@ -1,0 +1,93 @@
+.earthshaker_section_main{
+    width: 100%;
+    height: 1300px;
+    background-image: url(/3840x2160-px-Dota-2-684888-wallhere.com.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+}
+.earthshaker_main_block{
+    width: 85%;
+    height: 80%;
+    background-color: rgba(29, 28, 28, 0.966);
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0px 0px 75px 75px;
+}
+.earthshaker_block{
+    width: 58%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.earthshaker_img{
+    margin-left: 5px;
+    margin-top: 30px;
+    width: 500px;
+    height: 300px;
+    border-radius: 30px;
+}
+.name{
+    background:linear-gradient(rgb(0, 140, 255), rgb(255, 123, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+}
+.earthshaker_text_abillities{
+    background:linear-gradient(rgb(0, 140, 255), rgb(255, 123, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 10px;
+}
+.block_img_ability{
+    display: flex;
+    gap:5px;
+}
+.img_ability{
+    width: 75px;
+    height: 75px;
+}
+.earthshaker_block span{
+    background:linear-gradient(rgb(255, 123, 0),rgb(0, 140, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.earthshaker_block_1{
+    color:rgba(136, 138, 139, 0.89);
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right:30px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.earthshaker_history{
+    margin-top: 10px;
+    border: 3px solid rgba(136, 138, 139, 0.89);
+    padding: 5px;
+    border-radius: 10px;
+    color: rgb(199, 197, 197);
+    background:linear-gradient(rgba(224, 164, 0, 0.671),rgba(0, 119, 255, 0.541));
+}
+.text_block_abillitties{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.earthshaker_img_ability_text{
+    width: 25px;
+    height: 25px;
+}
